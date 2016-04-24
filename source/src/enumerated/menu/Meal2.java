@@ -6,6 +6,7 @@ public enum Meal2 {
   APPETIZER(Food.Appetizer.class),
   MAINCOURSE(Food.MainCourse.class),
   DESSERT(Food.Dessert.class),
+  DESSERT2(Food.Dessert.class),
   COFFEE(Food.Coffee.class);
   private Food[] values;
   private Meal2(Class<? extends Food> kind) {
